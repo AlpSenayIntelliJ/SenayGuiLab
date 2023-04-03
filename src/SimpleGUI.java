@@ -33,8 +33,8 @@ public class SimpleGUI extends JFrame implements ActionListener, ItemListener, C
     private void init() {
         // setting up the frame
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(500, 400);
-        setLocation(300, 50);
+        setSize(1500, 900);
+        setLocation(110, 50);
 
         // create the MenuBar and menu components
         JMenuBar menuBar = new JMenuBar();
@@ -60,7 +60,7 @@ public class SimpleGUI extends JFrame implements ActionListener, ItemListener, C
 
         // create welcome label
         welcomeLabel = new JLabel("Welcome to my GUI!");
-        welcomeLabel.setFont(new Font("Helvetica", Font.BOLD, 20));
+        welcomeLabel.setFont(new Font("Times New Roman", Font.PLAIN, 50));
 
         // create slider and adjust settings
         JSlider slider = new JSlider(0, 40, 20);
